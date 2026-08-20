@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-bg: #020308;
+    --brand-card: #0b0d18;
+    --brand-card-hover: #111424;
+    --brand-border: #1a1e2d;
+    --brand-accent: #3d5afe;
+    --brand-accent-hover: #536dfe;
+    --brand-text: #e0e1e6;
+    --brand-muted: #8e95a5;
+  }
+
+  body {
+    background-color: #020308;
+    color: #e0e1e6;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
+
+.serif-display {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.bg-card {
+  background-color: #0b0d18;
+}
+
+.bg-card-alt {
+  background-color: #080a14;
+}
+
+.border-subtle {
+  border-color: #1a1e2d;
+}
+
+.glass-border {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-border-focus {
+  border: 1px solid rgba(61, 90, 254, 0.4);
+}
+
+.accent-blue {
+  color: #3d5afe;
+}
+
+.bg-accent {
+  background-color: #3d5afe;
+}
+
+.bg-accent-hover:hover {
+  background-color: #536dfe;
+}
+
+/* Custom scrollbars for clean editorial reader */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(2, 3, 8, 0.8);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.22);
+}
+
+.prose-editorial {
+  line-height: 1.75;
+  color: #e0e1e6;
+  max-width: 68ch;
+}
+
+

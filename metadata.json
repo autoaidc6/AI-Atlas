@@ -1,0 +1,6 @@
+{
+  "name": "AI Atlas",
+  "description": "Personalized AI-learning platform with guided paths, interactive quizzes, and Ask Atlas AI Tutor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
